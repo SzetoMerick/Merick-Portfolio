@@ -11,7 +11,7 @@
 }
 
 .tags {
-    color: #ffd700;
+    color: #64d86b;
     opacity: 0.6;
     position: absolute;
     bottom: 0;
@@ -40,21 +40,15 @@
     animation-delay: 1s;
 }
 
-.about-page {
-    .text-zone {
-        position: absolute;
-        left: 10%;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 35%;
-        vertical-align: middle;
-        display: table-cell;
-        max-height: 90%;
+.about-page,
+.portfolio-page,
+.contact-page {
+
 
         h1{
             font-size: 53px;
             font-family: 'Coolvetica';
-            color: #ffd700;
+            color: #64d86b;
             font-weight: 400;
             margin-top: 0;
             position: relative;
@@ -64,7 +58,7 @@
             &::before{
                 content: '<h1>';
                 font-family: 'La Belle Aurore';
-                color: #ffd700;
+                color: #64d86b;
                 font-size: 18px;
                 position: absolute;
                 margin-top: -10px;
@@ -76,7 +70,7 @@
             &::after{
                 content: '<h1/>';
                 font-family: 'La Belle Aurore';
-                color: #ffd700;
+                color: #64d86b;
                 font-size: 18px;
                 line-height: 18px;
                 position: absolute;
@@ -90,7 +84,7 @@
         }
 
         p{
-            font-style: 13px;
+            font-size: 25px;
             color: #fff;
             font-family: sans-serif;
             font-weight: 300;
@@ -109,8 +103,17 @@
                 animation-delay: 1.3s;
             }
         }
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 35%;
+        vertical-align: middle;
+        display: table-cell;
+        max-height: 90%;
 
-    }
+}
 
     .text-animate-hover{
         &:hover {

@@ -4,6 +4,8 @@ import LogoS from '../../../assets/images/logo-s.png'
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap-trial'
 
+
+
 const Logo = () => {
 
     const bgRef = useRef();
@@ -28,7 +30,7 @@ const Logo = () => {
             solidLogoRef.current, {
             opacity: 0,
     },
-     {opacity:1,
+     {opacity:0,
     delay:4,
 duration:4,})}, [])
 
