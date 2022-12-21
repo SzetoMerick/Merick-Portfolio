@@ -4,7 +4,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker} from 'react-leaflet'
 
 
 
