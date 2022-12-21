@@ -15,9 +15,6 @@ build-front-end-job:
     - npm install
     - npm run build
     - cp build/index.html build/404.html
-  artifacts:
-    paths:
-      - ghi/build/
 
 # Deploy the React/JavaScript front-end to GitLab pages
 pages:
