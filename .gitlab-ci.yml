@@ -1,32 +1,23 @@
-build-front-end-job:
+build-job:
   stage: build
-  image: node:lts-bullseye
-  needs:
-  variables:
-    # If either of these variables is defined in the GitLab
-    # CI/CD variables, that value will override the value here.
-    # You need to substitute in your real values for
-    # GROUP_NAME, PROJECT_NAME, & WEBSERVICE_NAME below.
-    PUBLIC_URL:
-    # Rename below for each microservice
-
   script:
-    - cd ghi
-    - npm install
-    - npm run build
-    - cp build/index.html build/404.html
+    - echo "Hello, $GITLAB_USER_LOGIN!"
 
-# Deploy the React/JavaScript front-end to GitLab pages
-pages:
+test-job1:
+  stage: test
+  script:
+    - echo "This job tests something"
+
+test-job2:
+  stage: test
+  script:
+    - echo "This job tests something, but takes more time than test-job1."
+    - echo "After the echo commands complete, it runs the sleep command for 20 seconds"
+    - echo "which simulates a test that runs 20 seconds longer than test-job1"
+    - sleep 20
+
+deploy-prod:
   stage: deploy
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-  dependencies:
-    - build-front-end-job
-  needs:
-    - build-front-end-job
   script:
-    - mv ghi/build/ public
-  artifacts:
-    paths:
-      - public
+    - echo "This job deploys something from the $CI_COMMIT_BRANCH branch."
+  environment: production
