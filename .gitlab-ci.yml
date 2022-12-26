@@ -1,8 +1,27 @@
 # The Docker image that will be used to build your app
-image: node:lts
+image: node:lts-bullseye
 # Functions that should be executed before the build script is run
 before_script:
   - npm install
+
+build-front-end-job:
+  stage: build
+  image: node:lts-bullseye
+  needs:
+    - lint-test-job
+  variables:
+    # If either of these variables is defined in the GitLab
+    # CI/CD variables, that value will override the value here.
+    # You need to substitute in your real values for
+    # GROUP_NAME, PROJECT_NAME, & WEBSERVICE_NAME below.
+    PUBLIC_URL: https://szetomerick.gitlab.io/merick-portfolio/
+    # Rename below for each microservice
+  script:
+    - npm install
+    - npm run build
+    - cp build/index.html build/404.html
+
+
 pages:
   script:
     - npm run build
