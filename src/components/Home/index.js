@@ -1,9 +1,9 @@
-import LogoTitle from '../../assets/images/logo-s.png';
+// import LogoTitle from '../../assets/images/logo-s.png';
 import {Link} from 'react-router-dom'
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState } from 'react';
-import Logo from './Logo'
+// import Logo from './Logo'
 import Loader from 'react-loaders';
 
 
@@ -40,7 +40,7 @@ const Home = () => {
 
                 <br     />
                 <br />
-                <img src={LogoTitle} alt="developer"/>
+                {/* <img src={LogoTitle} alt="developer"/> */}
                 <AnimatedLetters letterClass={letterClass}
                 strArray={nameArray}
                 idx={20}/>
@@ -55,7 +55,7 @@ const Home = () => {
                 <h2> Fullstack Developer / Python / Javascript</h2>
                 <Link to="contact" className='flat-button'>CONTACT ME </Link>
                 </div>
-                <Logo/>
+                {/* <Logo/> */}
 
         </div>
         <Loader type="pacman" />
