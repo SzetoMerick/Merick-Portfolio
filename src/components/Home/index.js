@@ -52,7 +52,7 @@ const Home = () => {
                 strArray={jobArray}
                 idx={22}/>
                 </h1>
-                <h2> Fullstack Developer / Python / Javascript</h2>
+                <h1> Fullstack Developer / Python / Javascript</h1>
                 <Link to="contact" className='flat-button'>CONTACT ME </Link>
                 </div>
                 {/* <Logo/> */}
