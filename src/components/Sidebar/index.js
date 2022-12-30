@@ -83,19 +83,19 @@ const Sidebar = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.linkedin.com/in/merick-szeto-89ba53195/"
+            href="https://gitlab.com/szetomerick/"
           >
             <FontAwesomeIcon icon={faGitlab} color="#4d4d4e" />
           </a>
         </li>
         <li>
-          <a
+          {/* <a
             target="_blank"
             rel="noreferrer"
             href="https://www.linkedin.com/in/merick-szeto-89ba53195/"
           >
             <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
-          </a>
+          </a> */}
         </li>
       </ul>
       <FontAwesomeIcon
