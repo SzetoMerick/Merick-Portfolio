@@ -1,34 +1,34 @@
 {
     "portfolio": [
         {
-            "cover" : "./portfolio/1/c.jpg",
-            "title" : "chiahuahua",
+            "cover" : "../portfolio/1/disposition.png",
+            "title" : "Disposition",
             "description" : "React,JSX, Bootstrap",
-            "url": "http://google.com"
+            "url": "https://moodz3.gitlab.io/disposition/"
         },
         {
-            "cover" : "./portfolio/1/c.jpg",
-            "title" : "chiahuahua",
+            "cover" : "../portfolio/1/carcar.png",
+            "title" : "CarAlpha",
             "description" : "React,JSX, Bootstrap",
-            "url": "http://google.com"
+            "url": "https://gitlab.com/szetomerick/project-beta-final"
         },
         {
-            "cover" : "./portfolio/1/c.jpg",
-            "title" : "chiahuahua",
+            "cover" : "../portfolio/1/conferencego.png",
+            "title" : "ConferenceGo",
             "description" : "React,JSX, Bootstrap",
-            "url": "http://google.com"
+            "url": "https://gitlab.com/szetomerick/conference-go"
         },
         {
-            "cover" : "./portfolio/1/c.jpg",
-            "title" : "chiahuahua",
+            "cover" : "../portfolio/1/wardrobify.png",
+            "title" : "Wardrobify",
             "description" : "React,JSX, Bootstrap",
-            "url": "http://google.com"
+            "url": "https://gitlab.com/szetomerick/microservice-two-shot"
         },
         {
-            "cover" : "./portfolio/1/c.jpg",
-            "title" : "chiahuahua",
+            "cover" : "../portfolio/1/tasktracker.png",
+            "title" : "ListTracker",
             "description" : "React,JSX, Bootstrap",
-            "url": "http://google.com"
+            "url": "https://gitlab.com/szetomerick/django-two-shot"
         }
     ]
 }
