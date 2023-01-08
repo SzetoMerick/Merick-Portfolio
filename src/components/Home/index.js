@@ -27,7 +27,7 @@ const Home = () => {
                 <span className={letterClass}>H</span>
                 <span className={`${letterClass} _11`}>i</span>
                 <span className={`${letterClass} _12`}>,</span>
-                <br />
+                <span className={`${letterClass} _12`}> </span>
                 <span className={`${letterClass} _13`}>I</span>
                 <span className={`${letterClass} _14`}>'m</span>
                 <br />
@@ -37,21 +37,23 @@ const Home = () => {
                 <span className={`${letterClass} _18`}>i</span>
                 <span className={`${letterClass} _19`}>c</span>
                 <span className={`${letterClass} _20`}>k</span>
-
-                <br     />
                 <br />
+
                 {/* <img src={LogoTitle} alt="developer"/> */}
-                <AnimatedLetters letterClass={letterClass}
+                {/* <AnimatedLetters letterClass={letterClass}
                 strArray={nameArray}
                 idx={20}/>
-                <br />
-                <br />
+
+                <br /> */}
 
                 <AnimatedLetters letterClass={letterClass}
 
                 strArray={jobArray}
                 idx={22}/>
                 </h1>
+
+                <br />
+
                 <h1> Fullstack Developer / Python / Javascript</h1>
                 <Link to="contact" className='flat-button'>CONTACT ME </Link>
                 </div>
