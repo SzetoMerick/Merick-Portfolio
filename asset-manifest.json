@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Merick-Portfolio/static/css/main.dababb6d.css",
-    "main.js": "/Merick-Portfolio/static/js/main.f1e14b59.js",
+    "main.js": "/Merick-Portfolio/static/js/main.b9731f2d.js",
     "static/js/787.a2cb61a6.chunk.js": "/Merick-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/video.mp4": "/Merick-Portfolio/static/media/video.ce3bb88c0e841d94076f.mp4",
     "static/media/helvetica-neu.ttf": "/Merick-Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
@@ -9,11 +9,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/Merick-Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/Merick-Portfolio/index.html",
     "main.dababb6d.css.map": "/Merick-Portfolio/static/css/main.dababb6d.css.map",
-    "main.f1e14b59.js.map": "/Merick-Portfolio/static/js/main.f1e14b59.js.map",
+    "main.b9731f2d.js.map": "/Merick-Portfolio/static/js/main.b9731f2d.js.map",
     "787.a2cb61a6.chunk.js.map": "/Merick-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dababb6d.css",
-    "static/js/main.f1e14b59.js"
+    "static/js/main.b9731f2d.js"
   ]
 }
